@@ -1,4 +1,5 @@
-import React from 'react';
+// REACT
+import React from "react";
 
 const Video = () => {
   return <div>Video</div>;
