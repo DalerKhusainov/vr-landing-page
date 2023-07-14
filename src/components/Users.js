@@ -12,7 +12,11 @@ import { BsFillCircleFill } from "react-icons/bs";
 
 const Users = () => {
   return (
-    <div className="flex flex-col items-center justify-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-start">
+    <div
+      className="flex flex-col items-center justify-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-start"
+      data-aos="fade-down"
+      data-aos-delay="900"
+    >
       {/* USER IMAGES */}
       <div className="flex -space-x-2">
         <div className="w-12 h-12 rounded-full">
