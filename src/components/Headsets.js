@@ -9,7 +9,7 @@ import Headset4 from "../assets/img/headset-4.png";
 
 const Headsets = () => {
   return (
-    <section className="py-12 lg:py-24">
+    <section className="py-12 lg:py-24 relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:top-[50%] before:left-[-200px] before:hidden before:lg:flex before:-rotate-90 after:w-[600px] after:h-[200px] after:bg-circle after:bg-no-repeat after:absolute after:top-[10%] after:right-[-200px] after:hidden after:lg:flex after:rotate-90">
       <div className="container mx-auto">
         {/* TITLE */}
         <h2
